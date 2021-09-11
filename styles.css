@@ -1,11 +1,12 @@
 
 
 body{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(53, 175, 149);
     font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main {
@@ -14,10 +15,12 @@ main {
 }
 
 main label{
+    font-size: 1.4em;
     margin: 0.5em;
 }
 
 main input {
+    font-size: 1em;
     box-shadow: none;
     border: none;
     border-radius:0.4em;
@@ -30,8 +33,13 @@ button {
     box-shadow: none;
     border: solid;
     border-radius: 0.4em;
-    max-width: 100px;
+    width: max-content;
     padding: 0.5em;
     margin: auto;
     margin-top: 1em;
+    background-color: tomato
+}
+
+p{
+    font-size: 1.4em;
 }
